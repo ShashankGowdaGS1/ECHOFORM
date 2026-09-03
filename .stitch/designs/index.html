@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>ECHOFORM: SOUND TAKES FORM</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@400;500;600&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<style>
+  .laser-line-v { border-right: 1px solid #17171B; }
+  .laser-line-h { border-bottom: 1px solid #17171B; }
+  .glow-hover:hover { background-color: #72E4FF; color: #050506; transition: all 0.3s ease; }
+</style>
+</head>
+<body class="bg-[#050506] text-[#F0F0EC] font-['Inter'] overflow-x-hidden selection:bg-[#7867FF] selection:text-[#F0F0EC]">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full bg-[#050506]/90 backdrop-blur-md z-50 border-b border-[#17171B] flex justify-between items-center px-12 py-4">
+  <div class="font-['Syne'] font-bold text-2xl tracking-tighter text-[#F0F0EC]">ECHOFORM</div>
+  <div class="hidden md:flex space-x-8">
+    <a class="text-[#7867FF] font-mono text-xs uppercase tracking-widest hover:text-[#72E4FF] transition-colors" href="#lineup">SIGNAL</a>
+    <a class="text-[#A4A4A6] font-mono text-xs uppercase tracking-widest hover:text-[#72E4FF] transition-colors" href="#experience">EXPERIENCE</a>
+    <a class="text-[#A4A4A6] font-mono text-xs uppercase tracking-widest hover:text-[#72E4FF] transition-colors" href="#stages">STAGES</a>
+    <a class="text-[#A4A4A6] font-mono text-xs uppercase tracking-widest hover:text-[#72E4FF] transition-colors" href="#schedule">SCHEDULE</a>
+    <a class="text-[#A4A4A6] font-mono text-xs uppercase tracking-widest hover:text-[#72E4FF] transition-colors" href="#passes">PASSES</a>
+  </div>
+  <div class="flex items-center gap-4">
+    <span class="font-mono text-xs text-[#A4A4A6] hidden lg:block">[12.9716° N, 77.5946° E] / BENGALURU</span>
+    <a href="#passes" class="bg-[#F0F0EC] text-[#050506] px-6 py-3 font-mono text-xs font-bold uppercase hover:bg-[#72E4FF] transition-colors">GET PASSES ↗</a>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="min-h-screen relative flex items-center justify-center pt-24 px-12 bg-[#050506] border-b border-[#17171B]">
+  <div class="relative z-10 flex flex-col items-center text-center mt-20">
+    <h1 class="font-['Syne'] text-8xl md:text-9xl font-extrabold uppercase text-[#F0F0EC] tracking-tighter">ECHOFORM</h1>
+    <p class="font-['Syne'] text-2xl md:text-3xl mt-4 text-[#A4A4A6] uppercase tracking-wider">SOUND TAKES FORM.</p>
+    <div class="mt-8 font-mono text-xs text-[#F0F0EC] border border-[#17171B] px-4 py-2 uppercase tracking-widest">
+      18—19 SEP 2027 // BENGALURU, IN
+    </div>
+  </div>
+</section>
+</body>
+</html>

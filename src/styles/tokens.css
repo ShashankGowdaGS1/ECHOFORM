@@ -1,0 +1,56 @@
+:root {
+  /* ==========================================================================
+     ECHOFORM COLOR PALETTE (Strict Void Hierarchy)
+     ========================================================================== */
+  --color-void: #050506;          /* Deep base darkness (72%) */
+  --color-carbon: #0B0B0D;        /* Secondary dark / floor */
+  --color-graphite: #17171B;      /* Hairline dividers & precision UI */
+  --color-graphite-light: #24242A;/* Interactive borders */
+  
+  /* Hairline Borders */
+  --color-border-subtle: rgba(240, 240, 236, 0.08);
+  --color-border-medium: rgba(240, 240, 236, 0.16);
+  --color-border-strong: rgba(240, 240, 236, 0.28);
+
+  /* Typography & Neutrals */
+  --color-lunar-white: #F0F0EC;   /* Primary headlines & solid CTAs (20%) */
+  --color-muted-silver: #A4A4A6;  /* Secondary text & metadata */
+  --color-dim-gray: #68686C;      /* Tertiary details */
+  --color-dark-text: #050506;     /* Contrast text on solid white */
+
+  /* Spectral Light Emission (Restrained ~8% total) */
+  --color-resonance-violet: #7867FF; /* 6% Primary energy */
+  --color-ion-blue: #72E4FF;         /* 2% High-frequency spectral edge */
+  --color-electric-lavender: #A89CFF;/* Intermediary accent */
+
+  /* Gradients */
+  --grad-spectral: linear-gradient(135deg, #7867FF 0%, #72E4FF 100%);
+  --grad-spectral-h: linear-gradient(90deg, #7867FF 0%, #72E4FF 100%);
+  --grad-void-vignette: radial-gradient(circle at center, transparent 30%, #050506 90%);
+
+  /* ==========================================================================
+     TYPOGRAPHY (PROPER RESET SIZES)
+     ========================================================================== */
+  --font-display: 'Syne', sans-serif;
+  --font-body: 'Inter Tight', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'Space Mono', monospace;
+
+  /* Fluid Typographic Scales */
+  --text-mega: clamp(2.4rem, 8.5vw, 7.5rem);       /* Hero Brand */
+  --text-section: clamp(2.2rem, 6.5vw, 6.5rem);     /* Section Headings */
+  --text-artist: clamp(1.8rem, 5vw, 5rem);          /* Headliner Artist Names */
+  --text-statement: clamp(1.2rem, 2.8vw, 2.4rem);   /* Subheadings & Statements */
+  --text-h3: clamp(1.1rem, 2vw, 1.8rem);
+  --text-lead: clamp(1rem, 1.35vw, 1.35rem);        /* Intro Lead Descriptions */
+  --text-body: clamp(0.95rem, 1.1vw, 1.15rem);      /* Standard Body Text */
+  --text-meta: 0.85rem;                              /* Supporting Metadata */
+  --text-meta-xs: 0.75rem;                           /* Minor decorative labels */
+
+  /* ==========================================================================
+     SPACING & LAYOUT
+     ========================================================================== */
+  --margin-desktop: clamp(24px, 4.5vw, 72px);
+  --margin-mobile: 20px;
+  --section-padding: clamp(80px, 11vh, 150px);
+  --max-content-width: 1560px;
+}

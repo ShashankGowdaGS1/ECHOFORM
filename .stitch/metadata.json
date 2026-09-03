@@ -1,0 +1,34 @@
+{
+  "name": "projects/16944952501770376614",
+  "projectId": "16944952501770376614",
+  "title": "ECHOFORM Festival",
+  "visibility": "PRIVATE",
+  "projectType": "PROJECT_DESIGN",
+  "origin": "STITCH",
+  "deviceType": "DESKTOP",
+  "designTheme": {
+    "colorMode": "DARK",
+    "font": "SYNE",
+    "roundness": "ROUND_ZERO",
+    "customColor": "#7867ff",
+    "saturation": 4
+  },
+  "screens": {
+    "index": {
+      "id": "31f39f400e614a828dd05d4b6282c6df",
+      "sourceScreen": "projects/16944952501770376614/screens/31f39f400e614a828dd05d4b6282c6df",
+      "title": "ECHOFORM: SOUND TAKES FORM",
+      "width": 2560,
+      "height": 2658,
+      "deviceType": "DESKTOP"
+    },
+    "resonance_ring": {
+      "id": "7c99022f3de74dd5a6fb87d8825aba3d",
+      "sourceScreen": "projects/16944952501770376614/screens/7c99022f3de74dd5a6fb87d8825aba3d",
+      "title": "ECHOFORM Resonance Ring",
+      "width": 1024,
+      "height": 1024,
+      "deviceType": "AGNOSTIC"
+    }
+  }
+}
